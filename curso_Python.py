@@ -85,10 +85,10 @@ print("_________________________________________________________________________
 
 # Funciones del sistema
 
-# Python tiene funciones predeterminadas que nos permiten hacer diferentes tipo de cosas para llegar a ciertos resultados
+# Python tiene funciones o metodos predeterminados que nos permiten hacer diferentes tipos de acciones para llegar a ciertos resultados en concreto
 
 """
-    Existen diferentes y varios tipos de funciones. Por ejemplo
+    Existen diferentes y varios tipos de funciones o metodos. Por ejemplo
     
     int() -> Permite cambiar un numero decimal a entero
     float() -> Permite tener decimales
