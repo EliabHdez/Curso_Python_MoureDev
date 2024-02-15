@@ -91,3 +91,12 @@ print(address)
 print(type(address))
 
 # Podriamos decir que es un tipado debil, ya que solo sirve a modo de aviso, ya que si le asignamos un valor de diferente tipo si va a cambiar el valor y el tipo de la variable
+
+"""
+    CONSTANTES...
+    
+    EN PYTHON NO HAY CONSTANTES COMO TAL, SI QUEREMOS IDENTIFICAR UNA VARIABLE COMO CONSTANTE PARA TENER EN CUENTA QUE ESE DATO NO DEBE SER MODIFICADO, LO HABITUAL DENTRO DE LOS PROGRAMADORES DE PYTHON A NIVEL DE SINTAXIS ES DEFINIR ESA VARIABLE CON MAYÚSCULAS, ESTO ES LO QUE SE HA TOMADO COMO UNA BUENA PRACTICA PARA DECLARAR UNA VARIABLE COMO CONSTANTE
+    
+    EJEMPLO:
+        CONST_NAME = 3.1416
+"""
