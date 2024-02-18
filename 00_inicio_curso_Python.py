@@ -70,3 +70,32 @@ age = input("How old are you? ")
 print(name)
 print(age)
 """
+
+""" 
+    IMPORTANTE: HAY QUE PROCURAR QUE CUANDO DECLAREMOS UN DATO ESE DATO SEA SIEMPRE DEL MISMO TIPO EN NUESTRO PROGRAMA. ES DECIR, SI DECLARAMOS UNA VARIABLE, QUE SEA SIEMPRE UNA VARIABLE, SI ES CONSTANTE QUE SIEMPRE SEA UNA CONSTANTE, QUE SI ES UNA LISTA O TUPLA SIEMPRE SEA UNA LISTA O TUPLA...
+    
+    NO ESTAR CAMBIANDO EL TIPO DE DATO
+    
+    SI SE VA A CAMBIAR QUE SEA TAL CUAL POR QUE ASI LO REQUERIMOS, PERO A MEDIDA QUE SEA POSIBLE HAY QUE PROCURAR NO MUTAR NUESTROS DATOS, VARIABLES, ETC... ESTO HACE MAS SEGURO AL PROGRAMA Y ES MENOS PROBABLE QUE TENGAMOS ERRORES ADEMÁS DE QUE HACE AL CODIGO MAS FÁCIL EN SU MANTENIMIENTO
+"""
+
+""" 
+    "del"
+    
+    La función "del" es una funcion propia del sistema, que nos sirve para eliminar. Pero esta a diferencia de las funciones que nos encontramos que nos permiten eliminar datos o elementos como remove(), pop() es que no es propia de algo en especifico como de una lista, tupla etc, esta es del sistema y elimina todo por completo, es decir que va a eliminar la variable, el constructor, una función etc...
+    
+    Ejemplos:
+    
+    my_fisrt_variable = "Hola Mundo"
+    list(("Moises", "Hernandez", 33))
+    function myAlias{
+        my_alias = "Predator"
+        print(my_alias)
+    }
+    
+    del my_first_variable
+    del list()
+    del myAlias
+    
+    Con "del" conseguimos eliminar la variable, la lista y la función por completo, NO solo los datos o instrucciones almacenadas en ellas
+"""

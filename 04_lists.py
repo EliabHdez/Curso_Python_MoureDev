@@ -14,8 +14,10 @@
     Los datos de las listas deben de ir separados por una coma
 """
 
-my_list = list()
-my_other_list = ["Moisés", "Eliab", "Hernández", "López"]
+# Constructores para crear una lista
+
+my_list = list() # Constructor 1
+my_other_list = ["Moisés", "Eliab", "Hernández", "López"] # Constructor 2
 
 print(len(my_list))
 print(my_other_list)
@@ -226,6 +228,12 @@ print(my_favorite_colors_second)
 my_new_list = ["Moto", "Honda", "CBR", 600, 2.4, "Lts", True, False]
 # my_new_list.sort() TypeError -> not supported between instances of 'int' and 'str'
 # print(my_new_list)
+
+print("________index___________")
+# index nos arroja como resultado el número de indice del dato o elemento que le pasamos a la función 
+print(my_new_list.index("CBR"))
+print(my_new_list.index(600))
+print(my_new_list.index("Honda"))
 
 print("___________________")
 
