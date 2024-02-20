@@ -23,7 +23,7 @@ print("*************************************************************************
 
 '''
     Hay diferentes tipos de datos
-    - string
+    - string (los strings vacíos adoptan el tipo de dato booleano "False")
     - int
     - float
     - complex
