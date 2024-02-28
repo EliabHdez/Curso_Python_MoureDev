@@ -1,6 +1,23 @@
 # Imprimiendo el primer Hola ...
 # Hagamos un Hola mundo
 
+""" 
+    PYTHON ES UN LENGUAJE DE TIPADO DINAMICO 
+
+    ESTO QUIERE DECIR QUE SE PUEDE CAMBIAR EL TIPO DE DATO, ES DECIR QUE PODEMOS TENER DE INICIO UN DATO DE TIPO STRING Y DESPUES CAMBIARLO A UN TIPO DE DATO INT Y ASI CON CUALQUIR TIPO DE DATO 
+    
+    HAY QUE TENER CUIDADO CON ESTO PORQUE OJO ESTO PUEDE SER MUY SUSCEPTIBLE A ERRORES
+    
+    EJEMPLO DEL TIPADO DINAMICO:
+    
+    number_one = 5
+    number_two = 3
+    
+    CAMBIAMOS EL VALOR DE LA VARIABLE number_two
+    
+    number_two = "3" -> Cambiamos el tipo de dato de la variable. Ahora aunque sigue teniendo el numero tres el tipo de dato ya no es de tipo int (numerico), ahora es de tipo string (cadena de texto)
+"""
+
 print("Hola Python")
 print('Hola Mundo')
 
