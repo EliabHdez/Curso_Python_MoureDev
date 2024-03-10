@@ -95,8 +95,8 @@ print(my_dict.values())
 print("________fromkeys___________")
 # La función fromkeys nos permite crear un nuevo diccionario con las puras claves (keys), sin valores
 # Por lo que entendi en el curso el la función fromkeys no tiene mucho sentido ya que la ocupamos para crear un nuevo diccionario con las claves de otro ya existente, pero en realidad uno le tiene que especificar las claves y como le puede poner las de otro diccionario, como puedes ponerle claves nuevas y te las va a dar por buenas, por lo tanto no tiene mucho sentido, porque de ser asi solo creas un diccionario nuevo y ya. La diferencia que hay es que no le agregas valores a las claves al momento y no da error, pero fuera de eso, no tiene mucho sentido la función...
-my_new_dict = my_other_dict.fromkeys({"Hobbit", "Trabajo", "Intereses"})
-my_new_dict_second = my_other_dict.fromkeys(("Hobbit", "Trabajo", "Intereses"))
+my_new_dict = my_other_dict.fromkeys({"Hobby", "Trabajo", "Intereses"})
+my_new_dict_second = my_other_dict.fromkeys(("Hobby", "Trabajo", "Intereses"))
 print(my_new_dict)
 print(my_new_dict_second)
 print(type(my_new_dict))
@@ -127,7 +127,7 @@ print(type(my_dict_from))
     
     El codigo dentro de este comentario no vale, da error, ya que las claves no tienen valores y si quitamos la palabra reservada dict() para que no de error, estariamos creando un set()
     
-    Para crear un diccionario sin valores en las claves, ahi si que si podriamos usar la función fromkeys como en el codigo de arriba de este comentario! Lo cual al parecer no es muy habitual, pero se podria sar el caso de que lo necesitemos...
+    Para crear un diccionario sin valores en las claves, ahi si que si podriamos usar la función fromkeys como en el codigo de arriba de este comentario! Lo cual al parecer no es muy habitual, pero se podria dar el caso de que lo necesitemos...
 """
 
 print("________fromkeys para crear diccionarios en base a una lista, tuplas o sets___________")

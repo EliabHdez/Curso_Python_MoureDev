@@ -33,4 +33,4 @@ def operations(num_one, num_two, num_three):
     print('*** Operaciones realizadas con éxito ***')
     
 def end_module(text):
-    print('Fin del módulo')
+    print(text)

@@ -152,3 +152,27 @@ print(age)
      - Los sets no permiten concatenación entre estos mismos
      - Los diccionarios ocupan los "[]" para desempaquetar datos pero lo hacen mediante la clave para returnar el valor de dicha clave. Ej my_dict["Nombre"] -> retorna el valor "Moisés"
 """
+
+""" 
+    Algunos tipos de errores o excepciones son los sigs:
+    
+   -  SyntaxError: Ocurre cuando hay un error en la sintaxis del código, como un paréntesis o una comilla que falta.
+
+    - IndentationError: Se produce cuando la indentación del código no es correcta.
+
+    - TypeError: Se genera cuando se realiza una operación con un tipo de dato incompatible.
+
+    - ValueError: Se puede producir cuando el valor de un argumento no es válido.
+
+    - NameError: Ocurre cuando se intenta usar una variable que no ha sido definida previamente en el programa.
+
+    - IndexError: Se produce cuando se intenta acceder a un elemento de una secuencia con un índice fuera de rango.
+
+    - KeyError: Ocurre cuando se intenta acceder a una clave inexistente en un diccionario.
+
+    - FileNotFoundError: Ocurre cuando se intenta abrir un archivo que no existe.
+
+    - ImportError: Se produce cuando no se encuentra el módulo que se intenta importar.
+
+    - OSError: Se genera cuando hay un error al realizar una operación del sistema operativo, como abrir un archivo.
+"""

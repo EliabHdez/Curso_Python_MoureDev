@@ -10,7 +10,7 @@
     try:
         <<< Run code >>>
     except: (Puede o no puede tener un tipo de error en concreto)
-        Ejecuta este código cuando haya una excepción (trato de entender que con excepción se refiere a un error)
+        Ejecuta este código cuando haya una excepción o error, cualquiera de los dos que sea el caso
     else:
         Si no hay excepciones o errores ejecuta este código
     finally:
@@ -18,7 +18,7 @@
         
     TANTO EL ELSE COMO EL FINALLY SON OPCIONALES, SI QUEREMOS O NECESITAMOS PODEMOS HACER USO DE ELLOS, PERO ASI MISMO PODEMOS PRESCINDIR DE ELLOS
     
-    El "except" se va a ejecutar cuando haya una excepción/error
+    El "except" se va a ejecutar cuando haya una excepción o error. Sin embargo no necesariamente tiene que haber un error para que se ejecute. Puede ser meramente una excepción en la ejecución del código, vaya, algo que no se ejecuta en el try, pero que no genera algun error.
     
     El "else" solo se ejecuta si no hay una excepción/error, es decir que el código no pase por el "except"
     

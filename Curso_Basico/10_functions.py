@@ -135,8 +135,9 @@ print("________definiendo orden de los parametros___________")
 def name_lastname (nombre, apellido):
     print(f'{nombre} {apellido}')
     
-# Si no seguimos el orden de llamada de los parámetros de la función, podemos rectificaros y definirlos
-name_lastname(apellido='Hernandez', nombre='Moises') # Hemos reordenado el orden del 'print' de la función
+# Si no seguimos el orden de los parámetros en la llamada de la función, podemos rectificarlos y definirlos
+name_lastname('Hernandez', 'Moises')
+name_lastname(apellido='Hernandez', nombre='Moises') # Hemos reasignado el valor de los parametros de la función
 
 # DEFAULT - PARAMETROS POR DEFECTO
 
