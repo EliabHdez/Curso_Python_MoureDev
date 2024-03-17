@@ -129,7 +129,7 @@ sistema_operativo = "ANDROID"
 print(marca_celular.capitalize()) # Si el dato es de tipo alfabético (letra), la primera la pone con mayúscula
 print(marca_celular.upper()) # Si el dato es de tipo alfabético (letra), todas las letras las pondra en mayúsculas
 print(sistema_operativo.lower()) # Si el dato es de tipo alfabético (letra), todas las letras las pondra en minúsculas
-print(marca_celular.upper().isupper()) # Aqui solo vamos a ver la confirmación de que el dato de la variable si esta en mayúsculas
+print(marca_celular.upper().isupper()) # isupper nos sirve para confirmar si la cadena de texto esta en mayúsculas en su totalidad. Aqui solo vamos a ver la confirmación de que el dato de la variable si esta en mayúsculas
 print(marca_celular.count("s")) # Al metodo o funcion count() le tenemos que pasar un valor en forma de string. Este metodo va a contar cuantos caracteres iguales al declarado hay en el string en cuestión. Puede ser desde un solo caracter o varios, pero dentro de las mismas comillas y este lo tomara como un solo caracter...
 print(marca_celular.count("sa"))
 print(marca_celular.count("un"))
